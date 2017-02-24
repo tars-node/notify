@@ -19,7 +19,7 @@
 var assert = require('assert');
 
 var TarsClient = require('@tars/rpc').Communicator.New();
-var TarsConfigure = require('@tars/config-parser');
+var TarsConfigure = require('@tars/utils').Config;
 var Notify = require('./NotifyFProxy');
 
 var client;
@@ -46,7 +46,7 @@ var init = function(tarsConfig) {
 		}
 	}
 
-	assert(config, 'tarsConfig not instanceof config-parser');
+	assert(config, 'tarsConfig not instanceof (@tars/utils).Config');
 
 	assert(config.get('tars.application.server.app') && 
 		config.get('tars.application.server.server'), 'app & server not found in configure file');

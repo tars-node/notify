@@ -22,7 +22,7 @@
   "dependencies" : {
     "@tars/rpc": "latest",
     "@tars/stream" : "latest",
-    "@tars/config-parser" : "latest"
+    "@tars/utils" : "latest"
   },
   "license" : "BSD-3-Clause"
 }
