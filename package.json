@@ -1,0 +1,28 @@
+{
+  "name": "@tars/notify",
+  "version": "1.0.0",
+  "description": "TARS 框架中用于业务的（告警）消息上报",
+  "author": {
+    "name": "Superzheng",
+    "email": "superzheng@tencent.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.code.oa.com/taf/taf-notify.git"
+  },
+  "homepage": "http://git.oa.com/taf/taf-notify/",
+  "bugs": {
+    "url": "http://git.oa.com/taf/taf-notify/issues"
+  },
+  "keywords": [
+    "notify",
+    "node",
+    "tars"
+  ],
+  "dependencies" : {
+    "@tars/rpc": "latest",
+    "@tars/stream" : "latest",
+    "@tars/config-parser" : "latest"
+  },
+  "license" : "BSD-3-Clause"
+}
