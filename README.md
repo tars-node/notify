@@ -23,4 +23,4 @@
 * _LEVEL.NOTIFYWARN_: 警告
 * _LEVEL.NOTIFYERROR_: 错误
 
-如果 level 的级别为 LEVEL.NOTIFYERROR，则会进行短信告警，平台每10分钟对上报的异常进行收敛告警。
+平台每10分钟对上报的异常进行收敛告警。
