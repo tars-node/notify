@@ -1,26 +1,26 @@
-# @tars/notify
+# @ tars / notify
 
-上报业务（框架）消息（告警）至 `TARS` 平台。
+Report business (framework) messages (alarms) to the `TARS` platform.
 
-## report(message[, id])
+## report (message [, id])
 
-将消息上报到平台上，并可以在WEB管理页面上查看到。
+Report the message to the platform and view it on the web management page.
 
-* _message_: 消息内容（ __必填__ ）
-* _id_: 服务线程（进程）ID， *默认值为 process.pid* 
+* _message_: message content (__required__)
+* _id_: service thread (process) ID, * default value is process.pid *
 
-## notify(message[, level, id])
+## notify (message [, level, id])
 
-上报通知信息到平台。
+Report notification information to the platform.
 
-* _message_: 通知内容（ __必填__ ）
-* _level_: 通知内容的级别，为 LEVEL 枚举， *默认值为 LEVEL.NOTIFYNORMAL* 
-* _id_: 服务线程（进程）ID， *默认值为 process.pid* 
+* _message_: notification content (__required__)
+* _level_: Level of notification content, LEVEL enumeration, * The default value is LEVEL.NOTIFYNORMAL *
+* _id_: service thread (process) ID, * default value is process.pid *
 
-`LEVEL` 枚举中有3项可选：
+There are 3 options in the `LEVEL` enumeration:
 
-* _LEVEL.NOTIFYNORMAL_: 正常（默认）
-* _LEVEL.NOTIFYWARN_: 警告
-* _LEVEL.NOTIFYERROR_: 错误
+* _LEVEL.NOTIFYNORMAL_: Normal (default)
+* _LEVEL.NOTIFYWARN_: warning
+* _LEVEL.NOTIFYERROR_: error
 
-平台每10分钟对上报的异常进行收敛告警。
+The platform alerts the reported anomalies every 10 minutes.
