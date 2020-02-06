@@ -7,15 +7,15 @@ Report business (framework) messages (alarms) to the `TARS` platform.
 Report the message to the platform and view it on the web management page.
 
 * _message_: message content (__required__)
-* _id_: service thread (process) ID, * default value is process.pid *
+* _id_: service thread (process) ID, *default value is process.pid*
 
 ## notify (message [, level, id])
 
 Report notification information to the platform.
 
 * _message_: notification content (__required__)
-* _level_: Level of notification content, LEVEL enumeration, * The default value is LEVEL.NOTIFYNORMAL *
-* _id_: service thread (process) ID, * default value is process.pid *
+* _level_: Level of notification content, LEVEL enumeration, *The default value is LEVEL.NOTIFYNORMAL*
+* _id_: service thread (process) ID, *default value is process.pid*
 
 There are 3 options in the `LEVEL` enumeration:
 
